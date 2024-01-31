@@ -1,0 +1,10 @@
+# data daily
+
+Provider: ID of data provider
+Name: station name (unique and filename safe)
+Date: Date as yyyy-mm-dd
+HN: depth of snowfall in cm
+HS: snow depth in cm
+HN_after_qc: same as HN, but after quality check (where HN were replaced with missing values)
+HS_after_qc: same as HS, but after quality check (where HS were replaced with missing values)
+HS_after_gapfill: same as HS_after_qc, but after gap filling, so values potentiall filled (see manuscript for more information)
